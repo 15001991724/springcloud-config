@@ -1,5 +1,5 @@
 ﻿config:
-  info: dev
+   info: dev
 
 spring:
   application:
