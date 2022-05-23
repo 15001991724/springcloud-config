@@ -1,19 +1,2 @@
 config:
-   info: test
-
-spring:
-  application:
-    name: order-feign-service
-
-eureka:
-  client:
-    #    false表示是否自己注册自己
-    register-with-eureka: false
-    service-url:
-      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/
-feign:
-  client:
-    config:
-      default:
-        connectTimeout: 1000
-        readTimeout: 1000
+  info: "master branch,springcloud-config/config-test.yml version=1" 
