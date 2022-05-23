@@ -1,5 +1,5 @@
-config: 
-  info: dev
+﻿server:
+  port: 82
 
 spring:
   application:
